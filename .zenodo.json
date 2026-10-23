@@ -1,0 +1,31 @@
+{
+  "title": "El Niño, local climate and child health in India (NFHS-4 and NFHS-5): code and aggregate data",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "description": "<p>Code and aggregate results of a pre-specified analysis of in-utero and early-life climate exposures and child health in India (manuscript in preparation). Children under five in the National Family Health Survey (NFHS-4, 2015–16; NFHS-5, 2019–21) are linked to rainfall deficit (SPI-3 dryness) and maximum-temperature anomaly at their survey cluster in each trimester and in early childhood, and to El Niño–Southern Oscillation conditions in pregnancy; outcomes are birth weight, height-for-age, stunting, diarrhoea and anaemia (survey-weighted fixed-effects models).</p><p>Contents: the Python pipeline that extracts the NFHS children's recode, links the climate exposures and assembles the analysis dataset; the R analysis; the design specification, analysis plan and results contract (its samples, models, decision rules and primary keys committed before the models were fitted; later additions under dated amendments, without verdicts); every reported number (results.json) with the aggregate tables and figure data; and the district climate and ENSO tables used for the exposure linkage. The NFHS microdata and GPS data are produced by IIPS and ICF and are available from the DHS Program on registration; they are not redistributed, and the repository contains no record-level or cluster-level data.</p>",
+  "creators": [
+    {
+      "name": "Siddalingaiah, H S",
+      "affiliation": "Department of Community Medicine, Shridevi Institute of Medical Sciences and Research Hospital, Tumakuru, Karnataka, India",
+      "orcid": "0000-0002-4771-8285"
+    }
+  ],
+  "license": "mit",
+  "keywords": [
+    "El Niño–Southern Oscillation",
+    "birth weight",
+    "child growth",
+    "stunting",
+    "in-utero exposure",
+    "National Family Health Survey",
+    "India",
+    "climate and health",
+    "fixed-effects regression"
+  ],
+  "related_identifiers": [
+    {"identifier": "https://github.com/hssling/elnino-child-india", "relation": "isSupplementTo", "scheme": "url"},
+    {"identifier": "10.5281/zenodo.23424043", "relation": "references", "scheme": "doi"},
+    {"identifier": "10.5281/zenodo.23556278", "relation": "references", "scheme": "doi"}
+  ],
+  "notes": "Code: MIT licence. Aggregate data and figure data: CC BY 4.0 (see DATA_LICENSE.md); third-party terms apply. NFHS data: IIPS and ICF, distributed by the DHS Program; not redistributed."
+}

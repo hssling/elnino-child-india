@@ -1,0 +1,35 @@
+# Controlled NFHS data and user-supplied inputs (never commit)
+data/external/
+data/raw/
+data/derived/grids/
+data/derived/_parts/
+data/MANIFEST.csv
+*.parquet
+*.zip
+*.dta
+*.DTA
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+# R
+.Rhistory
+.RData
+.Rproj.user/
+models/renv/library/
+models/renv/local/
+models/renv/staging/
+models/B/_cache/
+models/B/logs/
+# Figure images
+papers/B/figures/*.png
+papers/B/figures/*.tif
+papers/B/figures/*.pdf
+# OS / editors
+.DS_Store
+Thumbs.db
+~$*
+.vscode/
+.idea/

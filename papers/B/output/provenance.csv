@@ -1,0 +1,13 @@
+item,value,note
+analysis_parquet,"data/external/nfhs_subset/analysis_child.parquet (git-ignored, controlled)",Task 5 analysis dataset
+analysis_sha256,09ced2f28341727bfc7a7fed8476cf5dcfc9e9fc00518cb8d21c8be94b8c5ab0,sha256 recorded by models/B/py/conception_shift.py from the same bytes (md5 and size verified here)
+analysis_md5,fc42dfac53bcbc27025273a0c6a9db64,tools::md5sum at results assembly
+analysis_bytes,61496925,file size
+analysis_rows,492547,parquet row count
+analysis_build_commit,c6f4210,"last commit touching pipeline/ (the code that builds the parquet; a rebuild from it was byte-identical, 2026-10-23)"
+conception_shift_source_match,TRUE,conception_shift.parquet b_source_md5/size equal the analysis parquet's
+steps_data_match,TRUE,every step cache records the same data md5: descriptive/birthweight/growth/morbidity/enso/mediation/sensitivity/supplementary/covariates/precision/figure_data
+results_code_commit,67016c1,"last commit touching models/B, models/common/R, papers/B/results_keys.md"
+results_code_dirty,FALSE,TRUE if those paths had uncommitted changes when the tables were assembled
+mediation_B,1000,bootstrap resamples per mediation call
+seed,20261022,SEED_B

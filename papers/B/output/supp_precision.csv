@@ -1,0 +1,15 @@
+model,term,scale,s,est,lo,hi,unit
+H4-bw,T2_dry,IQR,1.16219109296799,-0.504342711108386,-4.54437862817166,3.53569320595489,grams per IQR of trimester dryness
+H4-bw,T2_dry,SD,0.904790879379961,-0.392641698816737,-3.53789696040305,2.75261356276957,grams per SD of trimester dryness
+H4-bw,T3_dry,IQR,1.16022384166718,-3.00579079030809,-7.58102892391257,1.56944734329639,grams per IQR of trimester dryness
+H4-bw,T3_dry,SD,0.905149284331944,-2.34496938003742,-5.91434398996574,1.2244052298909,grams per SD of trimester dryness
+H5-haz2459,dry1000_2459,IQR,0.532615758478642,0.000605999998794469,-0.0165376387203044,0.0177496387178933,"HAZ per IQR of 1,000-day dryness"
+H5-haz2459,dry1000_2459,SD,0.422177205758597,0.000480345130815392,-0.013108538366807,0.0140692286284378,"HAZ per SD of 1,000-day dryness"
+ENSOxS-bw,elnino_x_sens_dry,IQR of sens_dry,14.1446833449504,-5.99107059857521,-17.243489623206,5.26134842605554,grams change in the El Nino-pregnancy difference across the IQR of sens_dry
+ENSOxS-bw,elnino_x_sens_dry,SD of sens_dry,9.45511902896264,-4.00477580437809,-11.5265391869164,3.51698757816022,grams change in the El Nino-pregnancy difference per SD of sens_dry
+ENSOxS-bw,elnino_x_sens_dry,p50 of sens_dry,9.35385887086659,-3.96188642034724,-11.403095031767,3.47932219107251,grams implied El Nino-pregnancy difference at the p50 of sens_dry
+ENSOxS-bw,elnino_x_sens_dry,p90 of sens_dry,23.0027603675211,-9.74296546363655,-28.0421873031216,8.5562563758485,grams implied El Nino-pregnancy difference at the p90 of sens_dry
+ENSOxS-haz2459,elnino_x_sens_dry,IQR of sens_dry,13.9888856332985,0.0207589401805938,-0.0170111552445274,0.058529035605715,HAZ change in the El Nino-pregnancy difference across the IQR of sens_dry
+ENSOxS-haz2459,elnino_x_sens_dry,SD of sens_dry,9.4415753696679,0.0140109157689416,-0.0114814080675599,0.0395032396054432,HAZ change in the El Nino-pregnancy difference per SD of sens_dry
+ENSOxS-haz2459,elnino_x_sens_dry,p50 of sens_dry,9.35385887086659,0.0138807480344129,-0.0113747406018496,0.0391362366706755,HAZ implied El Nino-pregnancy difference at the p50 of sens_dry
+ENSOxS-haz2459,elnino_x_sens_dry,p90 of sens_dry,23.0892102946118,0.0342634537079975,-0.0280775860987983,0.0966044935147933,HAZ implied El Nino-pregnancy difference at the p90 of sens_dry

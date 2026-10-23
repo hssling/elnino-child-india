@@ -1,0 +1,58 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper (manuscript in preparation) and this repository. NFHS data: cite IIPS and ICF (see README.md)."
+title: "El Niño, local climate and child health in India (NFHS-4 and NFHS-5): code and aggregate data"
+version: 1.0.0
+date-released: "2026-10-23"
+license: MIT
+repository-code: "https://github.com/hssling/elnino-child-india"
+url: "https://github.com/hssling/elnino-child-india"
+type: software
+authors:
+  - family-names: "Siddalingaiah"
+    given-names: "H S"
+    orcid: "https://orcid.org/0000-0002-4771-8285"
+    affiliation: "Department of Community Medicine, Shridevi Institute of Medical Sciences and Research Hospital, Tumakuru, Karnataka, India"
+keywords:
+  - El Niño–Southern Oscillation
+  - birth weight
+  - child growth
+  - stunting
+  - in-utero exposure
+  - drought
+  - heat
+  - National Family Health Survey
+  - India
+  - climate and health
+abstract: >-
+  Code and aggregate results of a pre-specified analysis linking children under five in
+  NFHS-4 (2015–16) and NFHS-5 (2019–21) to trimester-specific and early-life rainfall deficit
+  (SPI-3 dryness) and maximum-temperature anomaly at their survey cluster and to ENSO conditions in
+  pregnancy, with birth weight, height-for-age, stunting, diarrhoea and anaemia as outcomes
+  (survey-weighted fixed-effects models). The NFHS microdata and GPS data are available from the
+  DHS Program on registration and are not redistributed; the repository contains no record-level
+  or cluster-level data.
+references:
+  - type: software
+    title: "El Niño and malaria across Indian states, 2002–2025: data and code"
+    authors:
+      - family-names: "Siddalingaiah"
+        given-names: "H S"
+    version: 1.0.0
+    doi: 10.5281/zenodo.23424043
+    repository-code: "https://github.com/hssling/elnino-malaria-india"
+  - type: software
+    title: "El Niño, heat extremes, drought and mortality in India, 2001–2024: data and code"
+    authors:
+      - family-names: "Siddalingaiah"
+        given-names: "H S"
+    version: 1.0.0
+    doi: 10.5281/zenodo.23556278
+    repository-code: "https://github.com/hssling/elnino-heat-india"
+  - type: data
+    title: "India National Family Health Survey NFHS-4 2015-16 and NFHS-5 2019-21 [Datasets]"
+    authors:
+      - name: "International Institute for Population Sciences (IIPS)"
+      - name: "ICF"
+    publisher:
+      name: "The DHS Program, ICF"
+    url: "https://dhsprogram.com/"

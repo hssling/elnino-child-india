@@ -1,0 +1,107 @@
+round,nfhs_code,nfhs_name,state_code,state_name,match_type,boundary_flag,status,region_id,gadm_name,reason
+nfhs4,8,baramula,14,jammu and kashmir,fuzzy,,accepted,IND.14.4_1,Baramulla,fuzzy ratio 0.941 to Baramulla
+nfhs4,35,gurdaspur,28,punjab,exact,remnant,accepted,IND.28.8_1,Gurdaspur,GADM Gurdaspur is the post-2011 remnant; this NFHS district also covers GADM Pathankot
+nfhs4,43,firozpur,28,punjab,exact,remnant,accepted,IND.28.7_1,Firozpur,GADM Firozpur is the post-2011 remnant; this NFHS district also covers GADM Fazilka
+nfhs4,90,north west,25,delhi,manual,single_polygon,accepted,IND.25.1_1,West,GADM has one polygon ('West') for the whole state; NFHS has 9 districts
+nfhs4,91,north,25,delhi,manual,single_polygon,accepted,IND.25.1_1,West,GADM has one polygon ('West') for the whole state; NFHS has 9 districts
+nfhs4,92,north east,25,delhi,manual,single_polygon,accepted,IND.25.1_1,West,GADM has one polygon ('West') for the whole state; NFHS has 9 districts
+nfhs4,93,east,25,delhi,manual,single_polygon,accepted,IND.25.1_1,West,GADM has one polygon ('West') for the whole state; NFHS has 9 districts
+nfhs4,94,new delhi,25,delhi,manual,single_polygon,accepted,IND.25.1_1,West,GADM has one polygon ('West') for the whole state; NFHS has 9 districts
+nfhs4,95,central,25,delhi,manual,single_polygon,accepted,IND.25.1_1,West,GADM has one polygon ('West') for the whole state; NFHS has 9 districts
+nfhs4,96,west,25,delhi,manual,single_polygon,accepted,IND.25.1_1,West,GADM has one polygon ('West') for the whole state; NFHS has 9 districts
+nfhs4,97,south west,25,delhi,manual,single_polygon,accepted,IND.25.1_1,West,GADM has one polygon ('West') for the whole state; NFHS has 9 districts
+nfhs4,98,south,25,delhi,manual,single_polygon,accepted,IND.25.1_1,West,GADM has one polygon ('West') for the whole state; NFHS has 9 districts
+nfhs4,133,muzaffarnagar,33,uttar pradesh,exact,remnant,accepted,IND.34.58_1,Muzaffarnagar,GADM Muzaffarnagar is the post-2011 remnant; this NFHS district also covers GADM Shamli
+nfhs4,135,moradabad,33,uttar pradesh,exact,remnant,accepted,IND.34.57_1,Moradabad,GADM Moradabad is the post-2011 remnant; this NFHS district also covers GADM Sambhal (+part of Budaun)
+nfhs4,140,ghaziabad,33,uttar pradesh,exact,remnant,accepted,IND.34.30_1,Ghaziabad,GADM Ghaziabad is the post-2011 remnant; this NFHS district also covers GADM Hapur
+nfhs4,179,sultanpur,33,uttar pradesh,exact,remnant,accepted,IND.34.73_1,Sultanpur,GADM Sultanpur is the post-2011 remnant; this NFHS district also covers GADM Amethi (+part of Rae Bareli)
+nfhs4,187,mahrajganj,33,uttar pradesh,fuzzy,,accepted,IND.34.50_1,Maharajganj,fuzzy ratio 0.952 to Maharajganj
+nfhs4,254,tirap,3,arunachal pradesh,exact,remnant,accepted,IND.3.14_1,Tirap,GADM Tirap is the post-2011 remnant; this NFHS district also covers GADM Longding
+nfhs4,259,lohit,3,arunachal pradesh,exact,remnant,accepted,IND.3.7_1,Lohit,GADM Lohit is the post-2011 remnant; this NFHS district also covers GADM Namsai
+nfhs4,287,lawngtlai,23,mizoram,fuzzy,,accepted,IND.23.4_1,Lawangtlai,fuzzy ratio 0.947 to Lawangtlai
+nfhs4,289,west tripura,32,tripura,exact,remnant,accepted,IND.33.8_1,West Tripura,"GADM West Tripura is the post-2011 remnant; this NFHS district also covers GADM Khowai, Sipahijala"
+nfhs4,290,south tripura,32,tripura,exact,remnant,accepted,IND.33.6_1,South Tripura,GADM South Tripura is the post-2011 remnant; this NFHS district also covers GADM Gomati
+nfhs4,292,north tripura,32,tripura,exact,remnant,accepted,IND.33.4_1,North Tripura,GADM North Tripura is the post-2011 remnant; this NFHS district also covers GADM Unokoti
+nfhs4,293,west garo hills,22,meghalaya,exact,remnant,accepted,IND.22.9_1,West Garo Hills,GADM West Garo Hills is the post-2011 remnant; this NFHS district also covers GADM South West Garo Hills
+nfhs4,294,east garo hills,22,meghalaya,exact,remnant,accepted,IND.22.1_1,East Garo Hills,GADM East Garo Hills is the post-2011 remnant; this NFHS district also covers GADM North Garo Hills
+nfhs4,296,west khasi hills,22,meghalaya,exact,remnant,accepted,IND.22.10_1,West Khasi Hills,GADM West Khasi Hills is the post-2011 remnant; this NFHS district also covers GADM South West Khasi Hills
+nfhs4,328,jalpaiguri,35,west bengal,exact,remnant,accepted,IND.36.9_1,Jalpaiguri,GADM Jalpaiguri is the post-2011 remnant; this NFHS district also covers GADM Alipurduar
+nfhs4,344,paschim medinipur,35,west bengal,fuzzy,,accepted,IND.36.16_1,Pashchim Medinipur,fuzzy ratio 0.970 to Pashchim Medinipur
+nfhs4,401,surguja,7,chhattisgarh,exact,remnant,accepted,IND.7.26_1,Surguja,"GADM Surguja is the post-2011 remnant; this NFHS district also covers GADM Balrampur, Surajpur"
+nfhs4,406,bilaspur,7,chhattisgarh,exact,remnant,accepted,IND.7.7_1,Bilaspur,GADM Bilaspur is the post-2011 remnant; this NFHS district also covers GADM Mungeli
+nfhs4,409,durg,7,chhattisgarh,exact,remnant,accepted,IND.7.10_1,Durg,"GADM Durg is the post-2011 remnant; this NFHS district also covers GADM Balod, Bemetara"
+nfhs4,410,raipur,7,chhattisgarh,exact,remnant,accepted,IND.7.22_1,Raipur,"GADM Raipur is the post-2011 remnant; this NFHS district also covers GADM Baloda Bazar, Gariaband"
+nfhs4,414,bastar,7,chhattisgarh,exact,remnant,accepted,IND.7.4_1,Bastar,GADM Bastar is the post-2011 remnant; this NFHS district also covers GADM Kondagaon
+nfhs4,416,dakshin bastar dantewada,7,chhattisgarh,normalised,remnant,accepted,IND.7.8_1,Dantewada,GADM Dantewada is the post-2011 remnant; this NFHS district also covers GADM Sukma
+nfhs4,436,shajapur,19,madhya pradesh,exact,remnant,accepted,IND.19.42_1,Shajapur,GADM Shajapur is the post-2011 remnant; this NFHS district also covers GADM Agar Malwa
+nfhs4,472,sabarkantha,11,gujarat,normalised,remnant,accepted,IND.11.27_1,Sabar Kantha,GADM Sabar Kantha is the post-2011 remnant; this NFHS district also covers GADM Aravalli
+nfhs4,476,rajkot,11,gujarat,exact,remnant,accepted,IND.11.26_1,Rajkot,"GADM Rajkot is the post-2011 remnant; this NFHS district also covers GADM Morbi (+part of Surendranagar, Jamnagar)"
+nfhs4,477,jamnagar,11,gujarat,exact,remnant,accepted,IND.11.14_1,Jamnagar,GADM Jamnagar is the post-2011 remnant; this NFHS district also covers GADM Devbhumi Dwarka
+nfhs4,479,junagadh,11,gujarat,exact,remnant,accepted,IND.11.15_1,Junagadh,GADM Junagadh is the post-2011 remnant; this NFHS district also covers GADM Gir Somnath
+nfhs4,481,bhavnagar,11,gujarat,exact,remnant,accepted,IND.11.7_1,Bhavnagar,GADM Bhavnagar is the post-2011 remnant; this NFHS district also covers GADM Botad (+part of Ahmadabad)
+nfhs4,484,panchmahal,11,gujarat,fuzzy,remnant,accepted,IND.11.23_1,Panch Mahals,fuzzy ratio 0.952 to Panch Mahals; GADM Panch Mahals is the post-2011 remnant; this NFHS district also covers GADM Mahisagar (+part of Kheda)
+nfhs4,486,vadodara,11,gujarat,exact,remnant,accepted,IND.11.32_1,Vadodara,GADM Vadodara is the post-2011 remnant; this NFHS district also covers GADM Chhota Udaipur
+nfhs4,517,thane,20,maharashtra,exact,remnant,accepted,IND.20.33_1,Thane,GADM Thane is the post-2011 remnant; this NFHS district also covers GADM Palghar
+nfhs4,578,chamarajanagar,16,karnataka,fuzzy,,accepted,IND.16.8_1,Chamrajnagar,fuzzy ratio 0.923 to Chamrajnagar
+nfhs4,582,chikkaballapura,16,karnataka,fuzzy,,accepted,IND.16.9_1,Chikballapura,fuzzy ratio 0.929 to Chikballapura
+nfhs4,618,nagapattinam,31,tamil nadu,fuzzy,,accepted,IND.31.13_1,Nagappattinam,fuzzy ratio 0.960 to Nagappattinam
+nfhs4,625,virudhunagar,31,tamil nadu,fuzzy,,accepted,IND.31.32_1,Virudunagar,fuzzy ratio 0.957 to Virudunagar
+nfhs5,8,baramula,1,jammu & kashmir,fuzzy,,accepted,IND.14.4_1,Baramulla,fuzzy ratio 0.941 to Baramulla
+nfhs5,187,mahrajganj,9,uttar pradesh,fuzzy,,accepted,IND.34.50_1,Maharajganj,fuzzy ratio 0.952 to Maharajganj
+nfhs5,287,lawngtlai,15,mizoram,fuzzy,,accepted,IND.23.4_1,Lawangtlai,fuzzy ratio 0.947 to Lawangtlai
+nfhs5,328,jalpaiguri,19,west bengal,exact,remnant,accepted,IND.36.9_1,Jalpaiguri,GADM Jalpaiguri is the post-2011 remnant; this NFHS district also covers GADM Alipurduar
+nfhs5,344,paschim medinipur,19,west bengal,fuzzy,,accepted,IND.36.16_1,Pashchim Medinipur,fuzzy ratio 0.970 to Pashchim Medinipur
+nfhs5,578,chamarajanagar,29,karnataka,fuzzy,,accepted,IND.16.8_1,Chamrajnagar,fuzzy ratio 0.923 to Chamrajnagar
+nfhs5,582,chikkaballapura,29,karnataka,fuzzy,,accepted,IND.16.9_1,Chikballapura,fuzzy ratio 0.929 to Chikballapura
+nfhs5,618,nagapattinam,33,tamil nadu,fuzzy,,accepted,IND.31.13_1,Nagappattinam,fuzzy ratio 0.960 to Nagappattinam
+nfhs5,625,virudhunagar,33,tamil nadu,fuzzy,,accepted,IND.31.32_1,Virudunagar,fuzzy ratio 0.957 to Virudunagar
+nfhs5,802,kra daadi,12,arunachal pradesh,split,split,accepted,IND.3.6_1,Kurung Kumey,parent Kurung Kumey: 2015; carved from Kurung Kumey
+nfhs5,807,siang,12,arunachal pradesh,split,split,accepted,IND.3.18_1,West Siang,parent West Siang: 2015; carved from East and West Siang; parent chosen = West Siang (ambiguous)
+nfhs5,810,biswanath,18,assam,split,split,accepted,IND.4.25_1,Sonitpur,parent Sonitpur: 2015; carved from Sonitpur
+nfhs5,811,charaideo,18,assam,split,split,accepted,IND.4.24_1,Sivasagar,parent Sivasagar: 2015; carved from Sivasagar
+nfhs5,813,hojai,18,assam,split,split,accepted,IND.4.22_1,Nagaon,parent Nagaon: 2015; carved from Nagaon
+nfhs5,816,majuli,18,assam,split,split,accepted,IND.4.14_1,Jorhat,parent Jorhat: 2016; carved from Jorhat
+nfhs5,820,south salmara mancachar,18,assam,split,split,accepted,IND.4.8_1,Dhubri,parent Dhubri: 2015; carved from Dhubri
+nfhs5,821,west karbi anglong,18,assam,split,split,accepted,IND.4.17_1,Karbi Anglong,parent Karbi Anglong: 2016; carved from Karbi Anglong
+nfhs5,830,gariyaband,22,chhattisgarh,fuzzy,,accepted,IND.7.11_1,Gariaband,fuzzy ratio 0.947 to Gariaband
+nfhs5,837,central,7,nct of delhi,manual,single_polygon,accepted,IND.25.1_1,West,GADM has one polygon ('West') for the whole state; NFHS has 11 districts
+nfhs5,838,east,7,nct of delhi,manual,single_polygon,accepted,IND.25.1_1,West,GADM has one polygon ('West') for the whole state; NFHS has 11 districts
+nfhs5,839,new delhi,7,nct of delhi,manual,single_polygon,accepted,IND.25.1_1,West,GADM has one polygon ('West') for the whole state; NFHS has 11 districts
+nfhs5,840,north,7,nct of delhi,manual,single_polygon,accepted,IND.25.1_1,West,GADM has one polygon ('West') for the whole state; NFHS has 11 districts
+nfhs5,841,north east,7,nct of delhi,manual,single_polygon,accepted,IND.25.1_1,West,GADM has one polygon ('West') for the whole state; NFHS has 11 districts
+nfhs5,842,north west,7,nct of delhi,manual,single_polygon,accepted,IND.25.1_1,West,GADM has one polygon ('West') for the whole state; NFHS has 11 districts
+nfhs5,843,shahdara,7,nct of delhi,manual,single_polygon,accepted,IND.25.1_1,West,GADM has one polygon ('West') for the whole state; NFHS has 11 districts
+nfhs5,844,south,7,nct of delhi,manual,single_polygon,accepted,IND.25.1_1,West,GADM has one polygon ('West') for the whole state; NFHS has 11 districts
+nfhs5,845,south east,7,nct of delhi,manual,single_polygon,accepted,IND.25.1_1,West,GADM has one polygon ('West') for the whole state; NFHS has 11 districts
+nfhs5,846,south west,7,nct of delhi,manual,single_polygon,accepted,IND.25.1_1,West,GADM has one polygon ('West') for the whole state; NFHS has 11 districts
+nfhs5,847,west,7,nct of delhi,manual,single_polygon,accepted,IND.25.1_1,West,GADM has one polygon ('West') for the whole state; NFHS has 11 districts
+nfhs5,849,aravali,24,gujarat,fuzzy,,accepted,IND.11.4_1,Aravalli,fuzzy ratio 0.933 to Aravalli
+nfhs5,866,charkhi dadri,6,haryana,split,split,accepted,IND.12.2_1,Bhiwani,parent Bhiwani: 2016; carved from Bhiwani
+nfhs5,872,east jantia hills,17,meghalaya,split,split,accepted,IND.22.3_1,Jaintia Hills,parent Jaintia Hills: 2012; Jaintia Hills split into East and West
+nfhs5,877,west jaintia hills,17,meghalaya,split,split,accepted,IND.22.3_1,Jaintia Hills,parent Jaintia Hills: 2012; Jaintia Hills split into East and West
+nfhs5,884,bhadradri kothagudem,36,telangana,split,split,accepted,IND.32.4_1,Khammam,parent Khammam: 2016 Telangana reorganisation; carved from Khammam
+nfhs5,886,jagitial,36,telangana,split,split,accepted,IND.32.3_1,Karimnagar,parent Karimnagar: 2016; carved from Karimnagar
+nfhs5,887,jangoan,36,telangana,split,split,accepted,IND.32.10_1,Warangal,"parent Warangal: 2016; mainly from Warangal (small parts Nalgonda, Karimnagar)"
+nfhs5,888,jayashankar bhupalapally,36,telangana,split,split,accepted,IND.32.10_1,Warangal,parent Warangal: 2016; mainly from Warangal (part Karimnagar)
+nfhs5,889,jogulamba gadwal,36,telangana,split,split,accepted,IND.32.5_1,Mahbubnagar,parent Mahbubnagar: 2016; carved from Mahbubnagar
+nfhs5,890,kamareddy,36,telangana,split,split,accepted,IND.32.8_1,Nizamabad,parent Nizamabad: 2016; carved from Nizamabad
+nfhs5,893,komaram bheem asifabad,36,telangana,split,split,accepted,IND.32.1_1,Adilabad,parent Adilabad: 2016; carved from Adilabad
+nfhs5,894,mahabubabad,36,telangana,split,split,accepted,IND.32.10_1,Warangal,parent Warangal: 2016; mainly from Warangal (part Khammam)
+nfhs5,895,mahabubnagar,36,telangana,fuzzy,,accepted,IND.32.5_1,Mahbubnagar,fuzzy ratio 0.957 to Mahbubnagar
+nfhs5,896,mancherial,36,telangana,split,split,accepted,IND.32.1_1,Adilabad,parent Adilabad: 2016; carved from Adilabad
+nfhs5,898,medchal-malkajgiri,36,telangana,split,split,accepted,IND.32.9_1,Ranga Reddy,parent Ranga Reddy: 2016; carved from Ranga Reddy
+nfhs5,899,nagarkurnool,36,telangana,split,split,accepted,IND.32.5_1,Mahbubnagar,parent Mahbubnagar: 2016; carved from Mahbubnagar
+nfhs5,901,nirmal,36,telangana,split,split,accepted,IND.32.1_1,Adilabad,parent Adilabad: 2016; carved from Adilabad
+nfhs5,903,peddapalli,36,telangana,split,split,accepted,IND.32.3_1,Karimnagar,parent Karimnagar: 2016; carved from Karimnagar
+nfhs5,904,rajanna sircilla,36,telangana,split,split,accepted,IND.32.3_1,Karimnagar,parent Karimnagar: 2016; carved from Karimnagar
+nfhs5,906,sangareddy,36,telangana,split,split,accepted,IND.32.6_1,Medak,parent Medak: 2016; carved from Medak (Sangareddy was the old Medak district HQ)
+nfhs5,907,siddipet,36,telangana,split,split,accepted,IND.32.6_1,Medak,"parent Medak: 2016; mainly from Medak (parts Karimnagar, Warangal)"
+nfhs5,908,suryapet,36,telangana,split,split,accepted,IND.32.7_1,Nalgonda,parent Nalgonda: 2016; carved from Nalgonda
+nfhs5,909,vikarabad,36,telangana,split,split,accepted,IND.32.9_1,Ranga Reddy,parent Ranga Reddy: 2016; carved from Ranga Reddy (part Mahbubnagar)
+nfhs5,910,wanaparthy,36,telangana,split,split,accepted,IND.32.5_1,Mahbubnagar,parent Mahbubnagar: 2016; carved from Mahbubnagar
+nfhs5,911,warangal rural,36,telangana,split,split,accepted,IND.32.10_1,Warangal,parent Warangal: 2016; Warangal split into Rural and Urban
+nfhs5,912,warangal urban,36,telangana,split,split,accepted,IND.32.10_1,Warangal,parent Warangal: 2016; Warangal split into Rural and Urban (part Karimnagar)
+nfhs5,913,yadadri bhuvanagiri,36,telangana,split,split,accepted,IND.32.7_1,Nalgonda,parent Nalgonda: 2016; carved from Nalgonda
+nfhs5,917,sepahijala,16,tripura,fuzzy,,accepted,IND.33.5_1,Sipahijala,fuzzy ratio 0.900 to Sipahijala
+nfhs5,931,paschim barddhaman,19,west bengal,split,split,accepted,IND.36.3_1,Barddhaman,parent Barddhaman: 2017; Barddhaman split into Paschim and Purba
+nfhs5,932,purba barddhaman,19,west bengal,split,split,accepted,IND.36.3_1,Barddhaman,parent Barddhaman: 2017; Barddhaman split into Paschim and Purba
