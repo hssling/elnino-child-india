@@ -1,0 +1,548 @@
+{
+  "B.x.a1.h4bw.base.T1_tmax_anom": {
+    "value": 4.84930556528259,
+    "display": "4.8 (95% CI −1.1 to 10.8)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), primary H4 model, district and birth year-month FE; lo=-1.14427 hi=10.8429"
+  },
+  "B.x.a1.h4bw.base.T2_dry": {
+    "value": -0.433958506617361,
+    "display": "−0.4 (95% CI −3.9 to 3.0)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), primary H4 model, district and birth year-month FE; lo=-3.91018 hi=3.04226"
+  },
+  "B.x.a1.h4bw.base.T2_tmax_anom": {
+    "value": 3.01154782259121,
+    "display": "3.0 (95% CI −1.8 to 7.9)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), primary H4 model, district and birth year-month FE; lo=-1.84429 hi=7.86739"
+  },
+  "B.x.a1.h4bw.base.T3_dry": {
+    "value": -2.59069903785888,
+    "display": "−2.6 (95% CI −6.5 to 1.4)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), primary H4 model, district and birth year-month FE; lo=-6.53411 hi=1.35271"
+  },
+  "B.x.a1.h4bw.base.T3_tmax_anom": {
+    "value": 2.26165121970333,
+    "display": "2.3 (95% CI −3.0 to 7.5)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), primary H4 model, district and birth year-month FE; lo=-2.96243 hi=7.48574"
+  },
+  "B.x.a1.h4bw.base.n": {
+    "value": 373764,
+    "display": "373,764",
+    "script": "models/B/13_additional.R",
+    "description": "n, H4 model"
+  },
+  "B.x.a1.h4bw.district_cm.T1_tmax_anom": {
+    "value": 5.37906502637062,
+    "display": "5.4 (95% CI −1.2 to 12.0)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), primary H4 model, plus district x birth calendar-month FE; lo=-1.20736 hi=11.9655"
+  },
+  "B.x.a1.h4bw.district_cm.T2_dry": {
+    "value": -1.09371694089196,
+    "display": "−1.1 (95% CI −4.8 to 2.6)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), primary H4 model, plus district x birth calendar-month FE; lo=-4.79882 hi=2.61139"
+  },
+  "B.x.a1.h4bw.district_cm.T2_tmax_anom": {
+    "value": 1.16283259276232,
+    "display": "1.2 (95% CI −4.5 to 6.8)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), primary H4 model, plus district x birth calendar-month FE; lo=-4.47266 hi=6.79832"
+  },
+  "B.x.a1.h4bw.district_cm.T3_dry": {
+    "value": -2.04511678271144,
+    "display": "−2.0 (95% CI −6.2 to 2.1)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), primary H4 model, plus district x birth calendar-month FE; lo=-6.22532 hi=2.13508"
+  },
+  "B.x.a1.h4bw.district_cm.T3_tmax_anom": {
+    "value": 5.4007318012771,
+    "display": "5.4 (95% CI 0.0–10.8)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), primary H4 model, plus district x birth calendar-month FE; lo=0.00451939 hi=10.7969"
+  },
+  "B.x.a1.h4bw.district_cm.n": {
+    "value": 373747,
+    "display": "373,747",
+    "script": "models/B/13_additional.R",
+    "description": "n, H4 model"
+  },
+  "B.x.a1.h4bw.state_cm.T1_tmax_anom": {
+    "value": 3.95557396067256,
+    "display": "4.0 (95% CI −2.0 to 9.9)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), primary H4 model, plus state x birth calendar-month FE; lo=-2.01651 hi=9.92766"
+  },
+  "B.x.a1.h4bw.state_cm.T2_dry": {
+    "value": -1.06859644775352,
+    "display": "−1.1 (95% CI −4.4 to 2.3)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), primary H4 model, plus state x birth calendar-month FE; lo=-4.41851 hi=2.28132"
+  },
+  "B.x.a1.h4bw.state_cm.T2_tmax_anom": {
+    "value": 1.84927164431562,
+    "display": "1.8 (95% CI −3.0 to 6.7)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), primary H4 model, plus state x birth calendar-month FE; lo=-2.98719 hi=6.68573"
+  },
+  "B.x.a1.h4bw.state_cm.T3_dry": {
+    "value": -2.40509864307125,
+    "display": "−2.4 (95% CI −6.3 to 1.5)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), primary H4 model, plus state x birth calendar-month FE; lo=-6.32208 hi=1.51188"
+  },
+  "B.x.a1.h4bw.state_cm.T3_tmax_anom": {
+    "value": 5.85356315588674,
+    "display": "5.9 (95% CI 1.0–10.7)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), primary H4 model, plus state x birth calendar-month FE; lo=0.977223 hi=10.7299"
+  },
+  "B.x.a1.h4bw.state_cm.n": {
+    "value": 373764,
+    "display": "373,764",
+    "script": "models/B/13_additional.R",
+    "description": "n, H4 model"
+  },
+  "B.x.a1.h5haz.base.dry1000": {
+    "value": 0.00113778082820051,
+    "display": "0.001 (95% CI −0.031 to 0.033)",
+    "script": "models/B/13_additional.R",
+    "description": "HAZ 24-59 m per unit of 1,000-day dryness, district and birth year-month FE; lo=-0.0310498 hi=0.0333254"
+  },
+  "B.x.a1.h5haz.district_cm.dry1000": {
+    "value": 0.0033215176278993,
+    "display": "0.003 (95% CI −0.029 to 0.036)",
+    "script": "models/B/13_additional.R",
+    "description": "HAZ 24-59 m per unit of 1,000-day dryness, plus district x birth calendar-month FE; lo=-0.0292182 hi=0.0358613"
+  },
+  "B.x.a1.h5haz.state_cm.dry1000": {
+    "value": 0.000341051486060463,
+    "display": "0.000 (95% CI −0.032 to 0.032)",
+    "script": "models/B/13_additional.R",
+    "description": "HAZ 24-59 m per unit of 1,000-day dryness, plus state x birth calendar-month FE; lo=-0.0317676 hi=0.0324497"
+  },
+  "B.x.a1.placebo.base.T1_dry": {
+    "value": 1.79486227917555,
+    "display": "1.8 (95% CI −2.0 to 5.6)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), placebo model, district and birth year-month FE; lo=-2.02605 hi=5.61577"
+  },
+  "B.x.a1.placebo.base.T1_tmax_anom": {
+    "value": 4.45114302705591,
+    "display": "4.5 (95% CI −2.1 to 11.0)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), placebo model, district and birth year-month FE; lo=-2.09286 hi=10.9951"
+  },
+  "B.x.a1.placebo.base.T2_dry": {
+    "value": -1.81541782809231,
+    "display": "−1.8 (95% CI −5.9 to 2.2)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), placebo model, district and birth year-month FE; lo=-5.86722 hi=2.23639"
+  },
+  "B.x.a1.placebo.base.T2_tmax_anom": {
+    "value": 2.63212597616705,
+    "display": "2.6 (95% CI −2.8 to 8.0)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), placebo model, district and birth year-month FE; lo=-2.7766 hi=8.04085"
+  },
+  "B.x.a1.placebo.base.T3_dry": {
+    "value": -2.78417949861526,
+    "display": "−2.8 (95% CI −7.1 to 1.5)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), placebo model, district and birth year-month FE; lo=-7.05779 hi=1.48943"
+  },
+  "B.x.a1.placebo.base.T3_tmax_anom": {
+    "value": 2.84070348545352,
+    "display": "2.8 (95% CI −3.2 to 8.8)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), placebo model, district and birth year-month FE; lo=-3.16264 hi=8.84404"
+  },
+  "B.x.a1.placebo.base.n": {
+    "value": 314991,
+    "display": "314,991",
+    "script": "models/B/13_additional.R",
+    "description": "n, placebo model"
+  },
+  "B.x.a1.placebo.base.placebo_dry": {
+    "value": -1.87927669903517,
+    "display": "−1.9 (95% CI −8.0 to 4.3)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), placebo model, district and birth year-month FE; lo=-8.01236 hi=4.25381"
+  },
+  "B.x.a1.placebo.base.placebo_tmax_anom": {
+    "value": 15.2985110694978,
+    "display": "15.3 (95% CI 6.1–24.4)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), placebo model, district and birth year-month FE; lo=6.14723 hi=24.4498"
+  },
+  "B.x.a1.placebo.district_cm.T1_dry": {
+    "value": 2.24545665637234,
+    "display": "2.2 (95% CI −1.6 to 6.1)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), placebo model, plus district x birth calendar-month FE; lo=-1.6148 hi=6.10571"
+  },
+  "B.x.a1.placebo.district_cm.T1_tmax_anom": {
+    "value": 5.83657053914491,
+    "display": "5.8 (95% CI −1.1 to 12.8)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), placebo model, plus district x birth calendar-month FE; lo=-1.0954 hi=12.7685"
+  },
+  "B.x.a1.placebo.district_cm.T2_dry": {
+    "value": -1.80139802453723,
+    "display": "−1.8 (95% CI −6.2 to 2.6)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), placebo model, plus district x birth calendar-month FE; lo=-6.21556 hi=2.61276"
+  },
+  "B.x.a1.placebo.district_cm.T2_tmax_anom": {
+    "value": 1.59466292795045,
+    "display": "1.6 (95% CI −4.7 to 7.9)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), placebo model, plus district x birth calendar-month FE; lo=-4.6619 hi=7.85123"
+  },
+  "B.x.a1.placebo.district_cm.T3_dry": {
+    "value": -2.851620084194,
+    "display": "−2.9 (95% CI −7.4 to 1.7)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), placebo model, plus district x birth calendar-month FE; lo=-7.42062 hi=1.71738"
+  },
+  "B.x.a1.placebo.district_cm.T3_tmax_anom": {
+    "value": 4.92376496039117,
+    "display": "4.9 (95% CI −1.5 to 11.3)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), placebo model, plus district x birth calendar-month FE; lo=-1.45104 hi=11.2986"
+  },
+  "B.x.a1.placebo.district_cm.n": {
+    "value": 314970,
+    "display": "314,970",
+    "script": "models/B/13_additional.R",
+    "description": "n, placebo model"
+  },
+  "B.x.a1.placebo.district_cm.placebo_dry": {
+    "value": -2.32086927353707,
+    "display": "−2.3 (95% CI −8.8 to 4.1)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), placebo model, plus district x birth calendar-month FE; lo=-8.75237 hi=4.11063"
+  },
+  "B.x.a1.placebo.district_cm.placebo_tmax_anom": {
+    "value": 13.3060641560407,
+    "display": "13.3 (95% CI 3.9–22.7)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), placebo model, plus district x birth calendar-month FE; lo=3.89871 hi=22.7134"
+  },
+  "B.x.a1.placebo.state_cm.T1_dry": {
+    "value": 1.79226345075959,
+    "display": "1.8 (95% CI −1.8 to 5.4)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), placebo model, plus state x birth calendar-month FE; lo=-1.8478 hi=5.43233"
+  },
+  "B.x.a1.placebo.state_cm.T1_tmax_anom": {
+    "value": 4.99336783753155,
+    "display": "5.0 (95% CI −1.3 to 11.3)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), placebo model, plus state x birth calendar-month FE; lo=-1.3279 hi=11.3146"
+  },
+  "B.x.a1.placebo.state_cm.T2_dry": {
+    "value": -2.01847289292524,
+    "display": "−2.0 (95% CI −6.0 to 2.0)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), placebo model, plus state x birth calendar-month FE; lo=-6.04859 hi=2.01164"
+  },
+  "B.x.a1.placebo.state_cm.T2_tmax_anom": {
+    "value": 1.72401502781562,
+    "display": "1.7 (95% CI −3.4 to 6.9)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), placebo model, plus state x birth calendar-month FE; lo=-3.43796 hi=6.88599"
+  },
+  "B.x.a1.placebo.state_cm.T3_dry": {
+    "value": -2.45586317497194,
+    "display": "−2.5 (95% CI −6.7 to 1.8)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), placebo model, plus state x birth calendar-month FE; lo=-6.73175 hi=1.82002"
+  },
+  "B.x.a1.placebo.state_cm.T3_tmax_anom": {
+    "value": 4.5971677497081,
+    "display": "4.6 (95% CI −1.2 to 10.4)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), placebo model, plus state x birth calendar-month FE; lo=-1.22431 hi=10.4186"
+  },
+  "B.x.a1.placebo.state_cm.n": {
+    "value": 314991,
+    "display": "314,991",
+    "script": "models/B/13_additional.R",
+    "description": "n, placebo model"
+  },
+  "B.x.a1.placebo.state_cm.placebo_dry": {
+    "value": -2.34975052177643,
+    "display": "−2.3 (95% CI −8.5 to 3.8)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), placebo model, plus state x birth calendar-month FE; lo=-8.46309 hi=3.76359"
+  },
+  "B.x.a1.placebo.state_cm.placebo_tmax_anom": {
+    "value": 14.1838425249323,
+    "display": "14.2 (95% CI 5.8–22.6)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g per unit), placebo model, plus state x birth calendar-month FE; lo=5.79713 hi=22.5706"
+  },
+  "B.x.a1.rule.explained": {
+    "value": "not explained by seasonality",
+    "display": "not explained by seasonality",
+    "script": "models/B/13_additional.R",
+    "description": "A1 rule: state x calendar-month placebo heat CI includes 0 and |est| < 7.65 g; base est 15.30, model (a) est 14.18 [5.80, 22.57]"
+  },
+  "B.x.a2.gradient.base": {
+    "value": 8.57454208458914,
+    "display": "8.6 (95% CI 8.0–9.2)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g) per cm of mother's height, district and birth year-month FE; lo=7.99372 hi=9.15537"
+  },
+  "B.x.a2.gradient.state_cm": {
+    "value": 8.55028497218666,
+    "display": "8.6 (95% CI 8.0–9.1)",
+    "script": "models/B/13_additional.R",
+    "description": "birth weight (g) per cm of mother's height, plus state x birth calendar-month FE; lo=7.9806 hi=9.11997"
+  },
+  "B.x.a2.height.base.T1_dry": {
+    "value": 0.017453182597879,
+    "display": "0.017 (95% CI −0.022 to 0.056)",
+    "script": "models/B/13_additional.R",
+    "description": "mother's height (cm) per IQR (1.166) of T1_dry, district and birth year-month FE; lo=-0.0215159 hi=0.0564223"
+  },
+  "B.x.a2.height.base.T1_dry.bwbias": {
+    "value": 0.149653048695533,
+    "display": "0.1",
+    "script": "models/B/13_additional.R",
+    "description": "implied birth-weight bias, g per IQR (height est x gradient)"
+  },
+  "B.x.a2.height.base.T1_tmax_anom": {
+    "value": -0.00649957413637679,
+    "display": "−0.006 (95% CI −0.067 to 0.054)",
+    "script": "models/B/13_additional.R",
+    "description": "mother's height (cm) per IQR (1.061) of T1_tmax_anom, district and birth year-month FE; lo=-0.0673946 hi=0.0543954"
+  },
+  "B.x.a2.height.base.T1_tmax_anom.bwbias": {
+    "value": -0.0557308719642698,
+    "display": "−0.1",
+    "script": "models/B/13_additional.R",
+    "description": "implied birth-weight bias, g per IQR (height est x gradient)"
+  },
+  "B.x.a2.height.base.T2_dry": {
+    "value": -0.036344000549611,
+    "display": "−0.036 (95% CI −0.084 to 0.011)",
+    "script": "models/B/13_additional.R",
+    "description": "mother's height (cm) per IQR (1.16) of T2_dry, district and birth year-month FE; lo=-0.0835129 hi=0.0108249"
+  },
+  "B.x.a2.height.base.T2_dry.bwbias": {
+    "value": -0.311633162234971,
+    "display": "−0.3",
+    "script": "models/B/13_additional.R",
+    "description": "implied birth-weight bias, g per IQR (height est x gradient)"
+  },
+  "B.x.a2.height.base.T2_tmax_anom": {
+    "value": 0.0660586941949516,
+    "display": "0.066 (95% CI 0.006–0.126)",
+    "script": "models/B/13_additional.R",
+    "description": "mother's height (cm) per IQR (1.043) of T2_tmax_anom, district and birth year-month FE; lo=0.00579126 hi=0.126326"
+  },
+  "B.x.a2.height.base.T2_tmax_anom.bwbias": {
+    "value": 0.566423053427616,
+    "display": "0.6",
+    "script": "models/B/13_additional.R",
+    "description": "implied birth-weight bias, g per IQR (height est x gradient)"
+  },
+  "B.x.a2.height.base.T3_dry": {
+    "value": -0.00630489330522407,
+    "display": "−0.006 (95% CI −0.054 to 0.042)",
+    "script": "models/B/13_additional.R",
+    "description": "mother's height (cm) per IQR (1.162) of T3_dry, district and birth year-month FE; lo=-0.0544744 hi=0.0418647"
+  },
+  "B.x.a2.height.base.T3_dry.bwbias": {
+    "value": -0.0540615729844881,
+    "display": "−0.1",
+    "script": "models/B/13_additional.R",
+    "description": "implied birth-weight bias, g per IQR (height est x gradient)"
+  },
+  "B.x.a2.height.base.T3_tmax_anom": {
+    "value": -0.0179402527708033,
+    "display": "−0.018 (95% CI −0.073 to 0.037)",
+    "script": "models/B/13_additional.R",
+    "description": "mother's height (cm) per IQR (1.04) of T3_tmax_anom, district and birth year-month FE; lo=-0.0729064 hi=0.0370259"
+  },
+  "B.x.a2.height.base.T3_tmax_anom.bwbias": {
+    "value": -0.15382945239142,
+    "display": "−0.2",
+    "script": "models/B/13_additional.R",
+    "description": "implied birth-weight bias, g per IQR (height est x gradient)"
+  },
+  "B.x.a2.height.base.placebo_dry": {
+    "value": 0.00905836227360436,
+    "display": "0.009 (95% CI −0.049 to 0.067)",
+    "script": "models/B/13_additional.R",
+    "description": "mother's height (cm) per IQR (0.8261) of placebo_dry, district and birth year-month FE; lo=-0.0486407 hi=0.0667574"
+  },
+  "B.x.a2.height.base.placebo_dry.bwbias": {
+    "value": 0.0776713085324752,
+    "display": "0.1",
+    "script": "models/B/13_additional.R",
+    "description": "implied birth-weight bias, g per IQR (height est x gradient)"
+  },
+  "B.x.a2.height.base.placebo_tmax_anom": {
+    "value": 0.0539840156406333,
+    "display": "0.054 (95% CI −0.008 to 0.116)",
+    "script": "models/B/13_additional.R",
+    "description": "mother's height (cm) per IQR (0.7096) of placebo_tmax_anom, district and birth year-month FE; lo=-0.00765418 hi=0.115622"
+  },
+  "B.x.a2.height.base.placebo_tmax_anom.bwbias": {
+    "value": 0.462888214005729,
+    "display": "0.5",
+    "script": "models/B/13_additional.R",
+    "description": "implied birth-weight bias, g per IQR (height est x gradient)"
+  },
+  "B.x.a2.height.state_cm.T1_dry": {
+    "value": 0.0141491681203479,
+    "display": "0.014 (95% CI −0.024 to 0.052)",
+    "script": "models/B/13_additional.R",
+    "description": "mother's height (cm) per IQR (1.166) of T1_dry, plus state x birth calendar-month FE; lo=-0.023875 hi=0.0521733"
+  },
+  "B.x.a2.height.state_cm.T1_dry.bwbias": {
+    "value": 0.120979419548354,
+    "display": "0.1",
+    "script": "models/B/13_additional.R",
+    "description": "implied birth-weight bias, g per IQR (height est x gradient)"
+  },
+  "B.x.a2.height.state_cm.T1_tmax_anom": {
+    "value": -0.0134204991752283,
+    "display": "−0.013 (95% CI −0.075 to 0.048)",
+    "script": "models/B/13_additional.R",
+    "description": "mother's height (cm) per IQR (1.061) of T1_tmax_anom, plus state x birth calendar-month FE; lo=-0.0753364 hi=0.0484954"
+  },
+  "B.x.a2.height.state_cm.T1_tmax_anom.bwbias": {
+    "value": -0.114749092417198,
+    "display": "−0.1",
+    "script": "models/B/13_additional.R",
+    "description": "implied birth-weight bias, g per IQR (height est x gradient)"
+  },
+  "B.x.a2.height.state_cm.T2_dry": {
+    "value": -0.0353325733492926,
+    "display": "−0.035 (95% CI −0.081 to 0.011)",
+    "script": "models/B/13_additional.R",
+    "description": "mother's height (cm) per IQR (1.16) of T2_dry, plus state x birth calendar-month FE; lo=-0.0812246 hi=0.0105594"
+  },
+  "B.x.a2.height.state_cm.T2_dry.bwbias": {
+    "value": -0.302103570937139,
+    "display": "−0.3",
+    "script": "models/B/13_additional.R",
+    "description": "implied birth-weight bias, g per IQR (height est x gradient)"
+  },
+  "B.x.a2.height.state_cm.T2_tmax_anom": {
+    "value": 0.0623595991848729,
+    "display": "0.062 (95% CI 0.003–0.122)",
+    "script": "models/B/13_additional.R",
+    "description": "mother's height (cm) per IQR (1.043) of T2_tmax_anom, plus state x birth calendar-month FE; lo=0.00255734 hi=0.122162"
+  },
+  "B.x.a2.height.state_cm.T2_tmax_anom.bwbias": {
+    "value": 0.533192343782002,
+    "display": "0.5",
+    "script": "models/B/13_additional.R",
+    "description": "implied birth-weight bias, g per IQR (height est x gradient)"
+  },
+  "B.x.a2.height.state_cm.T3_dry": {
+    "value": -0.0121332988320313,
+    "display": "−0.012 (95% CI −0.056 to 0.032)",
+    "script": "models/B/13_additional.R",
+    "description": "mother's height (cm) per IQR (1.162) of T3_dry, plus state x birth calendar-month FE; lo=-0.0559344 hi=0.0316678"
+  },
+  "B.x.a2.height.state_cm.T3_dry.bwbias": {
+    "value": -0.103743162666567,
+    "display": "−0.1",
+    "script": "models/B/13_additional.R",
+    "description": "implied birth-weight bias, g per IQR (height est x gradient)"
+  },
+  "B.x.a2.height.state_cm.T3_tmax_anom": {
+    "value": -0.00888333646278269,
+    "display": "−0.009 (95% CI −0.067 to 0.049)",
+    "script": "models/B/13_additional.R",
+    "description": "mother's height (cm) per IQR (1.04) of T3_tmax_anom, plus state x birth calendar-month FE; lo=-0.066887 hi=0.0491204"
+  },
+  "B.x.a2.height.state_cm.T3_tmax_anom.bwbias": {
+    "value": -0.0759550582606086,
+    "display": "−0.1",
+    "script": "models/B/13_additional.R",
+    "description": "implied birth-weight bias, g per IQR (height est x gradient)"
+  },
+  "B.x.a2.height.state_cm.placebo_dry": {
+    "value": 0.00951864660259942,
+    "display": "0.010 (95% CI −0.047 to 0.066)",
+    "script": "models/B/13_additional.R",
+    "description": "mother's height (cm) per IQR (0.8261) of placebo_dry, plus state x birth calendar-month FE; lo=-0.0472266 hi=0.0662639"
+  },
+  "B.x.a2.height.state_cm.placebo_dry.bwbias": {
+    "value": 0.0813871410017614,
+    "display": "0.1",
+    "script": "models/B/13_additional.R",
+    "description": "implied birth-weight bias, g per IQR (height est x gradient)"
+  },
+  "B.x.a2.height.state_cm.placebo_tmax_anom": {
+    "value": 0.0519071728095059,
+    "display": "0.052 (95% CI −0.007 to 0.111)",
+    "script": "models/B/13_additional.R",
+    "description": "mother's height (cm) per IQR (0.7096) of placebo_tmax_anom, plus state x birth calendar-month FE; lo=-0.00711675 hi=0.110931"
+  },
+  "B.x.a2.height.state_cm.placebo_tmax_anom.bwbias": {
+    "value": 0.443821119621814,
+    "display": "0.4",
+    "script": "models/B/13_additional.R",
+    "description": "implied birth-weight bias, g per IQR (height est x gradient)"
+  },
+  "B.x.a2.n.base": {
+    "value": 366075,
+    "display": "366,075",
+    "script": "models/B/13_additional.R",
+    "description": "n, height model"
+  },
+  "B.x.a2.n.state_cm": {
+    "value": 366075,
+    "display": "366,075",
+    "script": "models/B/13_additional.R",
+    "description": "n, height model"
+  },
+  "B.x.a2.rule.flags": {
+    "value": "none",
+    "display": "none",
+    "script": "models/B/13_additional.R",
+    "description": "A2 rule: terms whose height CI excludes 0 and implied bias > 2 g per IQR"
+  },
+  "B.x.a3.dry1000_haz": {
+    "value": "ruled out",
+    "display": "ruled out",
+    "script": "models/B/13_additional.R",
+    "description": "A3: harmful effect >= 0.05 ruled out if lower 95% limit (-0.01654, from B.precision.h5haz2459.dry1000.per_iqr) > -0.05"
+  },
+  "B.x.a3.ensoxs_bw_p90": {
+    "value": "not ruled out",
+    "display": "not ruled out",
+    "script": "models/B/13_additional.R",
+    "description": "A3: harmful effect >= 15 ruled out if lower 95% limit (-28.04, from B.precision.ensoxs.bw.at_p90) > -15"
+  },
+  "B.x.a3.ensoxs_haz_p90": {
+    "value": "ruled out",
+    "display": "ruled out",
+    "script": "models/B/13_additional.R",
+    "description": "A3: harmful effect >= 0.05 ruled out if lower 95% limit (-0.02808, from B.precision.ensoxs.haz2459.at_p90) > -0.05"
+  },
+  "B.x.a3.t2_bw": {
+    "value": "ruled out",
+    "display": "ruled out",
+    "script": "models/B/13_additional.R",
+    "description": "A3: harmful effect >= 15 ruled out if lower 95% limit (-4.544, from B.precision.h4bw.T2_dry.per_iqr) > -15"
+  },
+  "B.x.a3.t3_bw": {
+    "value": "ruled out",
+    "display": "ruled out",
+    "script": "models/B/13_additional.R",
+    "description": "A3: harmful effect >= 15 ruled out if lower 95% limit (-7.581, from B.precision.h4bw.T3_dry.per_iqr) > -15"
+  }
+}

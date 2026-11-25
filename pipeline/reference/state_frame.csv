@@ -1,6 +1,6 @@
 unit_id,unit_name,gid1_members,aliases
 AN,Andaman and Nicobar Islands,IND.1_1,Andaman and Nicobar|Andaman & Nicobar Islands|A & N Islands|A&N Islands|Andaman & Nicobar|A and N Islands|A.N.Islands|A & N Island|A & NIslands
-AP_TG,Andhra Pradesh and Telangana,IND.2_1|IND.32_1,Andhra Pradesh|Telangana|Telengana|Andhra Pradesh & Telangana|Andhra Pra.|Andhra Padesh|Andhra Pd.
+AP_TG,Andhra Pradesh and Telangana,IND.2_1|IND.32_1,Andhra Pradesh|Telangana|Telengana|Andhra Pradesh & Telangana|Andhra Pra.|Andhra Padesh|Andhra Pd.|Andhra Pradesh Old
 AR,Arunachal Pradesh,IND.3_1,Arunachal Pradesh|Arunachal|Arunachal Pra.|Arunachal Pd.
 AS,Assam,IND.4_1,Assam
 BR,Bihar,IND.5_1,Bihar

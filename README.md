@@ -46,6 +46,8 @@ Timeline, from the history of the author's working repository (first commit of e
 | First model results (`papers/B/results.json`) | `papers/B/results.json` | 2026-10-23 05:04 (`3685cc0`) |
 | Contract amendment for the Phase 3b supplementary keys | `papers/B/results_keys.md` | 2026-10-23 09:53 (`1ae9c79`) |
 | Supplementary models (`models/B/09_supplementary.R`) | `models/B/09_supplementary.R` | 2026-10-23 10:11 (`8f6785e`) |
+| Plan of the additional (post hoc) analyses (`papers/B/envres/analysis_plan_addendum.md`) | `papers/B/envres/analysis_plan_addendum.md` | 2026-11-25 09:53 (`e60b3e9`) |
+| Additional analyses (`models/B/13_additional.R`) | `models/B/13_additional.R` | 2026-11-25 09:58 (`470e52e`) |
 
 Contract amendments of 2026-10-23 (each a section of `papers/B/results_keys.md`; commits of the working repository, IST):
 
@@ -72,12 +74,12 @@ docs/superpowers/specs/         2026-10-22-paper-b-nfhs-child-health-design.md
                                 # design specification, 2026-10-22
 models/                         .Rprofile, DESCRIPTION, renv.lock, setup.R
                                 # renv lock file and setup, R 4.5.3
-models/B/                       14 files
-                                # R analysis of this study: run_all.R and steps 01-10
+models/B/                       15 files
+                                # R analysis of this study: run_all.R and steps 01-12; 13_additional.R (additional analyses)
 models/B/R/                     display.R, fe.R, io.R, prep.R
                                 # helpers: fixed-effects fits, data preparation, input/output
-models/B/py/                    conception_shift.py
-                                # conception-shift exposure windows, Python
+models/B/py/                    conception_shift.py, maternal_height.py
+                                # conception-shift exposure windows and mother's height extraction, Python
 models/common/R/                8 files
                                 # shared R functions: results formatting, mediation and others
 models/common/tests/            run.R
@@ -86,6 +88,8 @@ models/common/tests/testthat/   14 files
 models/renv/                    .gitignore, activate.R, settings.json
 papers/B/                       results.json, results_keys.md
                                 # every reported number, and the results contract
+papers/B/envres/                additional_models.csv, analysis_plan_addendum.md, results_additional.json
+                                # additional (post hoc) analyses: plan, results and model table
 papers/B/figures/               make_figures.py
 papers/B/figures/data/          fig1_timeline.csv, fig2_district_map.csv, fig3_coefs.csv, fig4_sensitivity.csv, figS1_placebo.csv
                                 # figure data
@@ -160,6 +164,16 @@ Requirements: Python 3.10 or later (tested with 3.14), R 4.5.3, and the four DHS
    ```
 
    `B/run_all.R` writes `papers/B/results.json` (it stops unless the key set equals `results_keys.md`), `papers/B/output/` and `papers/B/figures/data/`. The mediation bootstrap (B = 1,000, resampling ENSO years) takes about 3–4 hours on 6 workers; `Rscript B/run_all.R --use-cache` reuses finished steps. The seed is fixed (`SEED_B` in `models/B/R/prep.R`). `papers/B/output/provenance.csv` records the checksums of the analysis dataset; in the author's environment a rebuild from the same DHS files gave the same checksums (they also depend on the package versions, see `requirements.txt` and `models/renv.lock`).
+
+6. **Additional analyses (version 1.1.0; not pre-specified).** Region-specific seasonality (state or district × birth calendar-month fixed effects) and the post-birth heat placebo; mother's height as a negative-control outcome; and smallest effects of interest. Their plan, with decision rules and benchmarks, is `papers/B/envres/analysis_plan_addendum.md`, committed before any of these models was fitted (see the timeline above). Mother's height (`v438`) is read from the DHS children's recode files into the git-ignored `data/external/nfhs_subset/maternal_height.parquet`:
+
+   ```
+   python models/B/py/maternal_height.py
+   cd models
+   Rscript B/13_additional.R
+   ```
+
+   `B/13_additional.R` writes `papers/B/envres/results_additional.json` (keys `B.x.*`) and the aggregate table `papers/B/envres/additional_models.csv`. It does not change any pre-specified result.
 
 **Tests.** `python -m pytest` runs the pipeline tests on synthetic data (tests that need the DHS files are marked `nfhs` and deselected by default; `-m nfhs` runs them). `cd models && Rscript common/tests/run.R` runs the R testthat suite.
 
